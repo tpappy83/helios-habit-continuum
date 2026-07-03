@@ -1,0 +1,7 @@
+{
+  "name": "Helios Habit Tracker",
+  "description": "A sleek, AI-powered habit tracker and lifestyle optimizer synchronized with Helios.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

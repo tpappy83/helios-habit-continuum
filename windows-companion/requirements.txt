@@ -1,0 +1,12 @@
+# Helios Habit Tracker - Windows Companion Requirements
+# Install via: pip install -r requirements.txt
+
+# For retrieving active process name and monitoring execution metrics
+psutil>=5.9.0
+
+# For counting keyboard and mouse input clicks/keypresses as productivity metrics
+pynput>=1.7.6
+
+# Windows specific library for accessing system APIs and foreground windows
+# (Ignored/safe fallback on other operating systems)
+pywin32>=300; sys_platform == 'win32'
